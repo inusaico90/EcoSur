@@ -7,6 +7,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+#circulo {
+    height: 100px;
+    width: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #0c546e;
+    background-image: linear-gradient(to top, rgb(31, 246, 154), rgb(67, 156, 142)), url("../../images/bg.png");
+    background-size: auto, cover;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
+}
+
+#bigcirculo {
+    height: 200px;
+    width: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -101,7 +122,7 @@ html {
 
 body {
     background-color: #0c546e;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgb(31, 246, 154), rgb(67, 156, 142)), url("../../images/bg.png");
     background-size: auto, cover;
     background-attachment: fixed, fixed;
     background-position: center, center;
